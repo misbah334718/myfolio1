@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+body{
+    font-family: font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 1170px;
+    margin: auto;
+}
+nav{
+    background-color: #02918c;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+nav .logo{
+    width: 40%;
+    text-align: left;
+}
+nav .manu{
+    width: 60%;
+    text-align: right;
+}
+nav ul li{
+    display: inline-block;
+}
+.manu ul li a{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 12px;
+    padding: 26px 25px;
+    display: block;
+}
+#bannar{
+    background-color: red;
+    background-image: url(../MYFOLIO-Recovered.jpg);
+    background-repeat: no-repeat;
+    padding: 210px 0;
+    background-size: cover;
+    color: white;
+    
+}
+.bannar-cnt {
+ text-align: center;
+}
+.bannar-cnt h3{
+    font-weight: 400;
+    font-size: 30px;
+}
+.bannar-cnt h1{
+    font-weight: 800;
+    font-size: 64px;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+
+}
+.bannar-cnt p{
+    font-weight: 400;
+    font-size: 18px;
+}
+.bannar-cnt img{
+    display: block;
+    margin: 50px auto;
+}
+.bannar-cnt a{
+    background-color: #cfc91d;
+    padding: 20px 43px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 800;
+    color: #0b1016;
+}
